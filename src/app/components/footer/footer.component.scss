@@ -1,0 +1,8 @@
+.container 
+{ display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; border-top: 2px solid #F2F8FD;
+  .section 
+  { align-items: center; display: flex;
+    .block { align-items: center; display: flex; .text { margin-left: 10px; font-weight: 500; font-family: 'Avenir-regular', 'arial', sans-serif; }}
+  }
+  .left { margin-left: 20px; }
+}

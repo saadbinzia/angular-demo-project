@@ -1,0 +1,17 @@
+/* navbar */
+.navbar 
+{ display: flex; justify-content: space-between; align-items: center; padding: 20px 40px;
+  .logo { display: flex; align-items: center; cursor: pointer; .text-logo { margin-left: 15px; } }
+  .navbar-line-items 
+  { display: flex; width: 50%; max-width: 600px; justify-content: space-between;
+    .option { color: #303030; font-size: 17px; cursor: pointer; text-decoration: none;}
+    .active { color: #306fd5; } 
+  }
+
+  .actions 
+  { display: flex; width: 300px; justify-content: space-between;
+    .button{ height: 50px; width: 150px; border-radius: 50px; display: flex; font-size: 18px; justify-content: center; align-items: center; cursor: pointer;}
+    .login { margin-right: 15px; border: 1px solid black; }
+    .register { border: 1px solid #306fd5; background-color: #306fd5; color: #fff; }
+  }
+}
