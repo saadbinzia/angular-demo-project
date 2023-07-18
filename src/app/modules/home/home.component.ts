@@ -1,5 +1,5 @@
 /**
- *          FILENAME: dashboard.component.ts
+ *          FILENAME: home.component.ts
  *            AUTHOR: SAAD BIN ZIA
  *           SUMMARY: RESPONSIBLE TO DISPLAY ALL HOME PAGE CONTENT.
  *   IMPORTING FILES: NO FILE IMPORTED
@@ -10,10 +10,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-dashboard',
-  templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.scss']
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss']
 })
-export class DashboardComponent {
+export class HomeComponent {
 
 }
